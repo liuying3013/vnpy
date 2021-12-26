@@ -8,7 +8,7 @@ from vnpy.trader.ui import MainWindow, create_qapp
 #from vnpy.gateway.bitmex import BitmexGateway
 # from vnpy.gateway.futu import FutuGateway
 # from vnpy.gateway.ib import IbGateway
-from vnpy.gateway.ctp import CtpGateway
+#from vnpy.gateway.ctp import CtpGateway
 # from vnpy.gateway.ctptest import CtptestGateway
 # from vnpy.gateway.mini import MiniGateway
 # from vnpy.gateway.sopt import SoptGateway
@@ -55,8 +55,8 @@ def main():
     main_engine = MainEngine(event_engine)
 
     # main_engine.add_gateway(BinanceGateway)
-    main_engine.add_gateway(CtpGateway, gateway_name='ctp')
-    main_engine.add_gateway(CtpGateway, gateway_name='ctp_yh01')
+    #main_engine.add_gateway(CtpGateway, gateway_name='ctp')
+    #main_engine.add_gateway(CtpGateway, gateway_name='ctp_yh01')
 
     # main_engine.add_gateway(CtptestGateway)
     # main_engine.add_gateway(MiniGateway)
